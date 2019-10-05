@@ -1,0 +1,45 @@
+
+Clover EFI installer log - Tue Oct  1 15:11:46 CST 2019
+Installer version: v2.5k r5070 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:       Microsoft Basic Data HDD                     1.0 TB     disk0s1
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *480.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:         Microsoft Reserved                         134.2 MB   disk1s2
+   3:       Microsoft Basic Data WIN10                   107.4 GB   disk1s3
+   4:       Microsoft Basic Data SSD                     264.1 GB   disk1s4
+   5:                 Apple_APFS Container disk2         108.2 GB   disk1s5
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +108.2 GB   disk2
+                                 Physical Store disk1s5
+   1:                APFS Volume MacOS                   45.9 GB    disk2s1
+   2:                APFS Volume Preboot                 22.1 MB    disk2s2
+   3:                APFS Volume Recovery                519.6 MB   disk2s3
+   4:                APFS Volume VM                      20.5 KB    disk2s4
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *8.0 GB     disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Mojave    7.7 GB     disk3s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Mojave
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Mojave
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
